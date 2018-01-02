@@ -3,7 +3,7 @@
 }
 
 img{
-  max-height: 129px;
+  width: 80%;
 }
 
 div.secondary.callout.text-center{
@@ -19,7 +19,7 @@ textarea{
 }
 
 .comenta{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 body{
@@ -36,11 +36,41 @@ body{
 }
 
 .contenedor-secundario{
-  background-color: rgba(118, 118, 118, 0.55);
+  background-color: rgba(255, 255, 255, 0.85);
   padding-top: 10px;
+  padding-left: 10px;
 }
 
 .right-borde{
   border-right: 1px dotted gray;
   color: white;
+}
+
+.boton{
+  padding-right: 10px;
+}
+
+p{
+  text-align: justify;
+}
+
+.fotoperfil{
+  height: 100px;
+}
+
+.commentdone{
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+  margin:10px;
+  background-color: rgba(243, 234, 181, 0.55);
+}
+
+cite{
+  color: white;
+}
+
+.publicaciones{
+  background-color: rgba(229, 228, 226, 0.55);
 }
